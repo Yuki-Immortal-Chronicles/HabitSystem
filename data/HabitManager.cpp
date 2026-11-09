@@ -13,7 +13,7 @@ string HabitManager::dataPath = "..\\.file\\data\\normal\\habits.txt";
 const string HabitManager::setsPath = "..\\.file\\sets\\test.properties";
 const string HabitManager::lastTimePath = "..\\.file\\data\\normal\\lasttime.txt";
 #else
-string HabitManager::filePath = "../.file/data/habits.txt";
+string HabitManager::dataPath = "../.file/data/habits.txt";
 const string HabitManager::setsPath = "../.file/sets/test.properties";
 const string HabitManager::lastTimePath = "../.file/data/normal/lasttime.txt";
 #endif

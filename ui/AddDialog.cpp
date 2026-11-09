@@ -373,7 +373,7 @@ void AddDialog::initButton() {
     PushButton *confirmButton = new PushButton("确定", this);
     confirmButton->setGeometry(200, 470, 80, 25);
     confirmButton->addStyle("QPushButton { font-size: 20px; }");
-    connect(confirmButton, &QPushButton::clicked, this, &addHabit);
+    connect(confirmButton, &QPushButton::clicked, this, &AddDialog::addHabit);
 
     PushButton *cancelButton = new PushButton("取消", this);
     cancelButton->setGeometry(300, 470, 80, 25);
